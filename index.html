@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Aralık Hesabı</title>
+  </head>
+  <body>
+    <h1>Aralıktaki Sayı Toplamını Bulma</h1>
+    <section id="calculator">
+      <p>
+        İstediğiniz bir
+        <strong>başlangıç değerinden bitiş değerine</strong> kadar olan
+        sayıların toplamını veren Javascript uygulaması. Sayıların büyük, küçük
+        veya negatif olması farketmez.
+        <br />
+        <small>Başlangıç ve Bitiş değerleri sonuca dahildir.</small>
+      </p>
+      <div class="loop1">
+        <div class="start">
+          <span>Başlangıç değeri:</span>
+          <input type="text" id="startValue" />
+        </div>
+        <br />
+        <div class="finish">
+          <span>Bitiş değeri:</span>
+          <input type="text" id="finishValue" />
+        </div>
+        <br />
+        <div class="result">
+          <button>Hesapla</button>
+        </div>
+        <br />
+        <label for="result" id="result"></label>
+        <p id="finish"></p>
+        <div><span id="numbers"></span></div>
+        
+      </div>
+    </section>
+  </body>
+</html>

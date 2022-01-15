@@ -1,0 +1,19 @@
+body {
+    margin: 3rem;
+    font-family: sans-serif;
+    background-color: rgb(32, 32, 29);
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(240, 206, 17);
+}
+
+section {
+    margin: 2rem auto;
+    width: 95%;
+    max-width: 50rem;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    background-color: rgb(167, 166, 148);
+}
